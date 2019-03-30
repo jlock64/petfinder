@@ -1,0 +1,14 @@
+{
+  "name": "petfinder",
+  "version": "1.0.0",
+  "description": "Use the petfinder API to show some animals",
+  "main": "index.js",
+  "scripts": {
+    "test": "j"
+  },
+  "author": "Justin Lock",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
