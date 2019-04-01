@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Petfinder API</title>
-  <link rel="stylesheet" type="text/css" href="/public/css/app.css">
+  <meta charset="utf-8">
+  <title>Project Complete</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="public/css/app.css" />
 </head>
+
 <body>
 
-<h1>Find a Pet</h1>
+<button onclick="getDogs()">Click for doggies</button>
+<button onclick="clearDogs()">Clear doggies</button>
+<div id="gallery"></div>
 
-<div id="app"></div>
 
-
-<script>
-  // Project code...
-</script>
-
+<!-- Scripts -->
+<script src="node_modules/axios/dist/axios.js"></script>
+<script src="public/js/main.js"></script>
 </body>
 </html>
